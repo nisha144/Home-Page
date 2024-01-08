@@ -1,0 +1,286 @@
+@import url("https://fonts.cdnfonts.com/css/cf-klondike-personal");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  top: 0;
+  padding: 18px 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.container .row {
+  height: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container .row .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 10px;
+}
+.container .row .col-md-4 .icon-wrapper {
+  display: flex;
+  padding: 0px;
+  align-items: left;
+  justify-content: left;
+  margin-right: 140px;
+}
+.container .row .col-md-4 .icon-wrapper i {
+  font-size: 35px;
+  margin-bottom: 0;
+  margin: 12px;
+  align-items: left;
+  margin-top: 22px;
+  margin-left: 8px;
+}
+.container .row .col-md-4 .icon-wrapper .content p:hover {
+  border-bottom: 1px solid #7377ab;
+  color: #7377ab;
+  cursor: pointer;
+}
+.container .row .col-md-4 ul li a i {
+  font-size: 20px;
+  margin-top: 22px;
+}
+.container .row .col-md-4 ul li a i:hover {
+  color: #7377ab;
+}
+.container .row .col-md-4 .icon-wrapper .icon-text {
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+.container .row .icon-title h2 {
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  align-items: left;
+  color: #cccccc;
+}
+.container p {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  display: inline;
+  margin-left: -3.4px;
+}
+
+.container .row .col-md-4 img {
+  width: 150px;
+  height: 70px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.container .row .col-md-4 .nav-link i {
+  margin-left: 140px;
+}
+.container .button_nav {
+  width: 100%;
+  height: 45px;
+  padding: 10px 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(65, 57, 57, 0.4);
+}
+.container .button_nav ul {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .button_nav ul li a {
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: var(--e-main-special);
+}
+.container .button_nav ul li a .i {
+  align-items: right;
+  justify-content: center;
+}
+.container .button_nav ul li a:hover {
+  color: #7377ab;
+  transition: 0.4s all;
+  padding-bottom: 0.5rem;
+}
+
+.button_nav ul li a.active {
+  color: #7377ab;
+}
+
+  
+ 
+ 
+
+
+.row .col-lg-6{
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0 6px;
+  position: relative;
+  display: flex;
+}
+.row .col-lg-6 img {
+  margin-top: 8px;
+  width: 100%;
+  object-fit: cover;
+  bottom: 0;
+  padding: 0 6px;
+  border-radius: 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  height: auto;
+  cursor: pointer;
+  overflow: hidden;
+ 
+}
+.col-lg-6 .zoom {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  height: 250px;
+  z-index: 1;
+}
+.col-lg-6 ::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height:250px;
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+.zoom {
+  transition: 0.5s ease all;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.col-lg-6:hover .zoom {
+  transform: scale(1.1);
+}
+ .col-lg-6 .content {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  flex-direction: column;
+  align-items: center;
+  display: block;
+  top: 25%;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  margin-left: 140px;
+}
+ .content .text-01 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 8px;
+  font-family: Red Hat Display, sans-serif;
+}
+ .content .text-02 {
+  font-size: 32px;
+  list-style: 30px;
+  font-weight: 100;
+  margin-top: 10px;
+  font-family: Red Hat Display, sans-serif;
+}
+.content .button-wrap a {
+  border-bottom: 2px solid #7377ab;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  padding: 4px 0;
+  background-color: transparent;
+  color: #fff;
+  border-style: solid;
+  border-width: 0 0 2px;
+  margin-top: 50px;
+  text-decoration: none;
+ 
+}
+ .col-lg-6 .content-2 .button-wrap a:hover {
+  color: #7377ab;
+  cursor: pointer;
+}
+.col-lg-6 .content-2 {
+  top: 10%;
+  position: absolute;
+  z-index: 3;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.col-lg-6 .content-2 .text-01 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 50px;
+  font-family: Red Hat Display, sans-serif;
+}
+
+.col-lg-6 .content-2 .button-wrap a {
+  font-size: 15px;
+  line-height: 20px;
+  background-color: transparent;
+  padding: 2px 0;
+  color: #fff;
+  text-decoration: underline;
+  text-transform: none;
+  margin-top: 30px;
+  font-weight: 400;
+ 
+ 
+}
+.col-lg-6 .content-2 .button-wrap a:hover {
+  color: #ccc;
+}
+.col-lg-6 .content-3 .button-wrap a {
+  top: 75%;
+  position: absolute;
+  z-index: 1;
+  border-bottom: 2px solid#fff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  padding: 4px 0;
+  background-color: transparent;
+  color: #fff;
+  border-style: solid;
+  border-width: 0 0 2px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.col-lg-6 .content-3 .button-wrap a:hover {
+  color: #7377ab;
+  border-bottom: 2px solid #7377ab;
+} 
+
+
