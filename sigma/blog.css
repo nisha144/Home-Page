@@ -1,0 +1,134 @@
+.container-lg{
+	max-width: 1400px;
+    }
+    .background-image {
+	background-image: url(img/bg-breadcrumb.jpg);
+	background-color: rgba(0, 0, 0, 0.67);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 280px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   
+    }
+   
+    .header .title h3 {
+	
+	font-size: 60px;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	align-items: center;
+	text-align: center;
+	font-weight: 500;
+    }
+    .header a {
+	color: #abb8c3;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+	  "Lucida Sans", Arial, sans-serif;
+    }
+    .header span {
+	color: #fff;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+	  "Lucida Sans", Arial, sans-serif;
+    }
+    .header .links {
+	margin-top: 1.5rem;
+	text-align: center;
+    }
+    .entry-header{
+	margin-left:  1.8em;
+    }
+    .entry-header .cat-links {
+	margin-top:6%;
+    }
+    
+    .entry-header .cat-links a{
+	width: 140px;
+	font-size: 13px;
+	text-align: center;
+	padding: 6px;
+	background: #5e6fb5;
+	color: #fff;
+	margin: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+    }
+    .entry-header .cat-links a:hover{
+	background: #5e6fb5;
+    }
+    .entry-meta{
+	margin-top: 5%;
+	font-size:13px;
+	font-weight: 600;
+	color: #999;
+    }
+  .entry-meta .meta-inner .byline span a {
+	color: #999;
+	font-weight: 700;
+	text-decoration: none;
+}
+    .byline i{
+	font-size:12px ;
+	color: #999;
+	text-decoration: none;
+    }
+    .author a{
+	color: #5e6fb5;
+    }
+    .post-thumbnail{
+	border-radius: 15px;
+    }
+    .post-thumbnail img{
+	border-radius: 15px;
+	padding: 30px;
+    }
+    .col-lg-8 .post-content p{
+	margin-left:  1.8em;
+	padding: 0;
+	font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    color: #677289;
+    }
+    .blockquote{
+	margin-left: 1.8rem;
+
+    }
+    .blockquote p{
+        font-size: 22px;
+	  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	 
+    }
+    .blockquote i{
+	color: #5e6fb5;
+	font-size: 35px;
+	display: flex;
+    }
+    .blockquote cite {
+	font-weight: 600;
+	margin-top: 1rem;
+	font-size: .6em;
+	font-style: normal;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+  }
+ .post-content h4{
+	margin-left: 1.8rem;
+ }
+
+ .col-lg-4{
+   
+ }
+ .col-lg-4 .search-bar{
+	color:#677289;
+	border-radius: 15px;
+	background:#999;
+	width: 100%;
+ }
